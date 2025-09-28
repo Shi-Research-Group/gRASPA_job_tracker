@@ -2,6 +2,17 @@
 
 A Python package for generating large datasets of results from gRASPA simulations. This package is designed to facilitate the automated submission and tracking of multiple gRASPA jobs, and designing customized workflows from preprocessing to simulation to analysis.
 
+## Table of Contents
+- [Features](#features)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Batch Splitting Strategies](#batch-splitting-strategies)
+- [Configuration Options](#configuration-options)
+- [Force field and simulation paramters](#force-field-and-simulation-paramters)
+- [Job tracking](#job-tracking)
+- [Creating Custom Scripts](#creating-custom-scripts)
+
 ## Features
 
 - Configurable runs via a YAML configuration file
@@ -321,3 +332,7 @@ echo "Molecule forcefield: ${FF_CO2}"
 - Use environment variables for all configuration and parameter values.
 - Write results and status files to the output directory provided.
 - For maximum compatibility, document in your script what type of input it expects (file or directory).
+
+## References
+If you find gRASPA_job_tracker helpful to your research or if you want to read more about its practical use in high-throughput GCMC simulations, please cite/check:
+Zhou, Z., Kashif, S.B., Feng, D., Dou, J.H., Shi, K., Deng, T. and Yao, Z., 2025. An Equivariant Graph Network for Interpretable Nanoporous Materials Design. [arXiv preprint arXiv:2509.15908](https://arxiv.org/abs/2509.15908).
